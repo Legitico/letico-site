@@ -273,7 +273,7 @@
 						<p>Drop us and line or two and we will contact us soon.</p>
 
 						<p>You can also reach us at:</p>
-						<p>email: info@legitico.com<br />phone: (650) 731-5243</p>
+						<p>email: info@legitico.com<br />phone: (650) 338-2261‬</p>
 					</div>
 					<div class="col-md-7 col-md-offset-1">
 						<form id="legitico-contact" method="post" action="legiticoForm.php">
