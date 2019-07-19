@@ -7,6 +7,8 @@
 }
 
 @media (max-width: 992px) {
+
+  /* content */
   .services-cont .col-md-6 {
     min-height: 220px;
   }
@@ -18,7 +20,59 @@
 }
 
 @media (max-width: 540px) {
+    a#logo {
+      margin-top: 0;
+    }
+    .margin-hor, .cta-area  {
+      margin: 10% 0;
+    }
 
+    .cta-area .form-group-button {
+      position: relative;
+      right: inherit;
+      top: inherit;
+      text-align: center;
+    }
+
+    section {
+      padding-top: 80px !important;
+    }
+    /* nav */
+    .nav {
+      position: inherit;
+      top: 0;
+      right: 0;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+    .nav li {
+      width: 25%;
+      float: left;
+      padding: 20px 0;
+      margin: 0;
+      height: 88px;
+      background-color: #fff;
+    }
+    .nav li.current {
+      background: #f2f2f2;
+    }
+    .nav.fixed {
+      position: fixed;
+      top: 0;
+      box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+      -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+      z-index: 999;
+    }
+    /* content */
+  section .container {
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  #legitico-contact {
+    margin-top: 40px;
+  }
 
 }
 @media (max-width: 480px) {

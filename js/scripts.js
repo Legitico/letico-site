@@ -106,9 +106,15 @@ jQuery(function( $ ){
 			}
 		  });
 	  
-		});
-  
-		
+		});  
+	  });//form
 	  
-	  });
+});
+
+$(window).bind('scroll', function () {
+    if ($(window).scrollTop() > 50) {
+        $('.nav').addClass('fixed');
+    } else {
+        $('.nav').removeClass('fixed');
+    }
 });
