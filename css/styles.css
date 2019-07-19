@@ -134,15 +134,38 @@ Section Hero
   background-size: 200px 47px;
 }
 
+
 .cta-area {
   position: relative;
   margin: 20px 0 0;
+  min-height: 60px;
 }
 
 .cta-area .form-group-button {
   position: absolute;
   right: 0;
   top: 0;
+}
+
+
+#ico-down {
+  width: 88px;
+  height: 40px;
+  background-size: 88px 40px;
+  animation: MoveUpDown 2s linear infinite;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  margin-left: -44px 
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    top: 10px;
+  }
+  50% {
+    top: -10px;
+  }
 }
 
 .cta-area input, .cta-area button {
