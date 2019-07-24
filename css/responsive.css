@@ -21,7 +21,7 @@
 
 @media (max-width: 540px) {
     a#logo {
-      margin-top: 0;
+      margin-top: 35px;
     }
     .margin-hor, .cta-area  {
       margin: 10% 0;
@@ -35,11 +35,11 @@
     }
 
     section {
-      padding-top: 80px !important;
+      
     }
     /* nav */
     .nav {
-      position: inherit;
+      position: fixed;
       top: 0;
       right: 0;
       margin: 0;
@@ -55,8 +55,8 @@
       height: 88px;
       background-color: #fff;
     }
-    .nav li.current {
-      background: #f2f2f2;
+    .nav li.active {
+      background: #f6f6f6;
     }
     .nav.fixed {
       position: fixed;
@@ -68,7 +68,7 @@
     }
     /* content */
   section .container {
-    padding: 0 15px;
+    padding: 100px 15px;
     margin: 0 auto;
   }
   #legitico-contact {

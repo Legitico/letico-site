@@ -83,14 +83,31 @@ navigation
   cursor: pointer;
   
 }
-.nav > li.current i {
-  color: #0054FF;
-}
-.nav > li.current i .nav-icons,
-.nav > li i:hover .nav-icons{
+.nav > li a.active i .nav-icons,
+.nav > li a:hover i .nav-icons {
   fill: #0054FF;
   color: #0054FF;
 }
+/* del */
+#test .nav {
+  position: fixed;
+  top: 50px;
+  right: 10px;
+}
+#test #wrapper {
+  margin-top: 50px;
+}
+#test #wrapper section {
+  height: 800px;
+}
+.nav  a.active,
+.nav  a:hover {
+  fill: red;
+  color: red;
+}
+
+/* ///////  */
+
 .nav>li>a:hover {
   background: transparent;
 }
@@ -101,18 +118,18 @@ Sections
 
 ===================================================== */
 section .container {
-  padding: 0 45px 0 65px;
+  padding: 20px 45px 135px 65px;
   /* background-color: #fff;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.05); */
-  margin-top: 45px;
-  margin-bottom: 45px;
 }
 
 /* sections */
 h2.font-blue,
 a#logo {
-  margin-top: 30px;
   display: block;
+}
+a#logo {
+  margin-top: 45px;
 }
 
 .port-desc {
@@ -201,7 +218,7 @@ TAB MENU
   display: inherit;
 }
 
-.current {
+.active {
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
@@ -267,14 +284,17 @@ header {
 }
 
 
-#content {
-  overflow: hidden;
+#wrapper {
+  /* overflow: hidden;
   position: relative;
-  /* height: 100vh; */
+  height: 100vh; */
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 section {
-
+  /* height: 90vh; */
 }
 .row {
   margin: 0;
